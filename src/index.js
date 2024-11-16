@@ -33,6 +33,12 @@ const gracefulShutdown = () => {
     });
 };
 
+app.get("/", (req, res) => {
+  res.send(
+    "<h1>Welcome to BookHive</h1><p>Visit <a href='/graphql'>/graphql</a> to use the API.</p>"
+  );
+});
+
 // Initialize databases
 (async () => {
   try {
