@@ -20,5 +20,5 @@ The **Book Management Backend** is a GraphQL-based API built with Node.js, Seque
 - **Apollo Server**: GraphQL server implementation.
 - **Sequelize**: ORM for PostgreSQL.
 - **Mongoose**: ODM for MongoDB.
-- **Express**: Web framework.
+- **Express**: Web framework
 
